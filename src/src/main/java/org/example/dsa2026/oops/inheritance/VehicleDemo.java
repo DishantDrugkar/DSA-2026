@@ -40,7 +40,7 @@ public class VehicleDemo {
         VehicleManu vehicleManu = new VehicleManu("Maruti",240000);
         vehicleManu.Accessories();
 
-       // FourWheeler fourWheeler4 = new VehicleManu("Safari",2340000); -> this gives error
+       //FourWheeler fourWheeler4 = new VehicleManu("Safari",2340000); -> this gives error
         // because we are creating parent class object and reference is child class
     }
 }
