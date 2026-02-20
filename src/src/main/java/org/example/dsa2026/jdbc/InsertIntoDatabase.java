@@ -7,7 +7,7 @@ public class InsertIntoDatabase {
         String url = "jdbc:postgresql://localhost:5432/devops_db";
         String username = "postgres";
         String password = "root5113";
-        String query = "INSERT INTO student(id, name, college, location) VALUES (1,'Dishant', 'PJLCOE', 'Nagpur'); ";
+        String query = "INSERT INTO student(id, name, college, location) VALUES (2,'Dishant', 'PJLCOE', 'Nagpur'); ";
         Connection connection = DriverManager.getConnection(url,username,password);
         Statement stmt = connection.createStatement();
         int rowsAffected = stmt.executeUpdate(query);
