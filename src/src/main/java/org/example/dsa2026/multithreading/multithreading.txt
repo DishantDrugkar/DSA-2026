@@ -1,0 +1,31 @@
+Program :
+A program is a set of instructions written in a programming language that tells a computer
+how to perform a specific task.
+
+Process :
+When a program runs, the operating system creates a process to manage its execution.
+
+Thread :
+A thread is smallest unit of execution within a process. A process can have multiple threads
+which share same resources but runs independently
+
+Multitasking :
+Multitasking allows an operating system to run multiple processes simultaneously.
+
+MultiThreading :
+Multithreading refers to the ability to execute multiple threads within a single process concurrently
+When a java program starts, one thread begins running immeditately which is called main thread.
+
+*********************************************************************************************************
+Thread Life Cycle
+
+1) NEW STATE: A Thread in this state when it is created but not yet started.
+
+2) RUNNABLE STATE : After the start() method is called, the thread becomes runnable.
+                    It's ready to run but waiting for CPU time
+
+3) RUNNING : In this state the Thread is executing.
+
+4) BLOCKED/ WAITING : A Thread in this state when it is waiting for another thread to perform an action.
+
+5) TERMINATED : A Thread in this state when it has finished execution.
